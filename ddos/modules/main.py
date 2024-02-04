@@ -190,7 +190,7 @@ class Main:
 		var.modules["Scanner"].server = var.server
 		var.modules["Scanner"].run()
         
-   @event.command
+	@event.command
 	def help(self):
 		event.help_title("\x1b[1;39mHelp:\x1b[0;39m")
 		tools.help("|-- ", " :: ", event)

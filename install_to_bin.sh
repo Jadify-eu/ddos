@@ -21,20 +21,20 @@ if [ -d "/usr/share/ddos" ] ; then
     sudo cp -ar ./ddos /usr/share/
     echo "[i] Installation sucessful."
     echo "[i] Making ddos executable..."
-    sudo mv /usr/share/ddos/main.py /usr/share/ddos/rst
-    sudo chmod +x /usr/share/ddos/rst
-    sudo ln -s /usr/share/ddos/rst /usr/bin/rst || echo "[i] Link already seems to exist."
+    sudo mv /usr/share/ddos/main.py /usr/share/ddos/ddos
+    sudo chmod +x /usr/share/ddos/ddos
+    sudo ln -s /usr/share/ddos/ddos /usr/bin/ddos || echo "[i] Link already seems to exist."
 else
     sudo cp -ar ./ddos /usr/share/
     echo "[i] Installation sucessful."
     echo "[i] Making ddos executable..."
-    sudo mv /usr/share/ddos/main.py /usr/share/ddos/rst
-    sudo chmod +x /usr/share/ddos/rst
-    sudo ln -s /usr/share/ddos/rst /usr/bin/rst || echo "[i] Link already seems to exist."
+    sudo mv /usr/share/ddos/main.py /usr/share/ddos/ddos
+    sudo chmod +x /usr/share/ddos/ddos
+    sudo ln -s /usr/share/ddos/ddos /usr/bin/ddos || echo "[i] Link already seems to exist."
 fi
 
 echo "[i] You can delete the ddos folder now."
 echo "----------------------------------------"
-echo "[i] Run 'sudo rst' to start ddos."
+echo "[i] Run 'sudo ddos' to start ddos."
 echo "----------------------------------------"
 exit 0

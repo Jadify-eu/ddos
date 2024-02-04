@@ -88,7 +88,6 @@ C_FIRE (
 	def on_ready():
 		system("clear || cls")
 		self.banner()
-		self.help()
 
 	@event.event
 	def on_command_not_found(command):

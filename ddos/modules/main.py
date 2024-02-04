@@ -74,6 +74,9 @@ class Main:
 		banner_fire_color = var.C_Cyan
 		banner_middle_color = var.C_Violet
 		banner_bottom_color = var.C_Dark_Blue
+		banner_logo = ("""C_Bo-----------------------------------------------------------C_W
+C_FIRE (
+ )\\ )                                 )                C_WC_Bov.""" + var.rsversion + """Powered By Sparix & Jadify DoS tool!""")
 		banner_logo = banner_logo.replace("C_W", var.C_None)
 		banner_logo = banner_logo.replace("C_Bo", var.C_Bold)
 		banner_logo = banner_logo.replace("C_FIRE", banner_fire_color)
